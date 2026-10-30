@@ -1,0 +1,21 @@
+
+# Deep learning and computer vision
+ultralytics
+opencv-python
+
+# Notebook environment
+jupyter
+ipykernel
+
+# API and real-time communication
+fastapi
+uvicorn[standard]
+websockets
+
+# Configuration and validation
+python-dotenv
+pydantic-settings
+
+# Database integration
+sqlalchemy
+psycopg[binary]

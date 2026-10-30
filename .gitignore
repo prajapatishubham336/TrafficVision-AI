@@ -1,0 +1,84 @@
+
+# ==============================
+# PYTHON CACHE
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# ENVIRONMENT & SECRETS
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# FRONTEND
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ==============================
+# DATABASE
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==============================
+# JUPYTER NOTEBOOKS
+# ==============================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ==============================
+# TEST IMAGES & OUTPUTS
+# ==============================
+camera_test*.jpg
+detection_test*.jpg
+bus.jpg
+
+runs/
+predict/
+predict-*/
+outputs/
+*.log
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# OS FILES
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# TEMPORARY FILES
+# ==============================
+*.tmp
+*.bak
+*.temp
